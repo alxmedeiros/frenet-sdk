@@ -1,0 +1,21 @@
+{
+    "name": "alxmedeiros/frenet-sdk",
+    "description": "A SDK for Frenet API",
+    "type": "library",
+    "require": {
+        "php": ">=5.3",
+        "nategood/httpful": "^0.2.20"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Medeiros",
+            "email": "alxmedeiros@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Frenet\\": "src/"
+        }
+    }
+}
